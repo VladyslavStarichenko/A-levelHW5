@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class Task2 {
 
     public static void main(String[] args) {
-        int[][] testArray = new int[3][3];
+        int arraySize = 3;
+        int[][] testArray = new int[arraySize][arraySize];
         matrixCreation(testArray);
         System.out.println("It's an our matrix:");
         printArray(testArray);
